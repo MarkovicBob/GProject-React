@@ -1,5 +1,11 @@
+import NeuErstellen from "./Components/neuErstellen.jsx";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <NeuErstellen />
+    </>
+  );
 }
 
 export default App;
