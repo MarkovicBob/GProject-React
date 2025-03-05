@@ -1,1 +1,5 @@
 @import "tailwindcss";
+@theme {
+  --color-Btn: #2b1b12;
+  --color-Card: #fdf1ea;
+}
