@@ -1,5 +1,5 @@
-import Home from "./component/Home";
-
+import Home from "./Components/Home.jsx";
+import Lesen from "./Components/Lesen.jsx";
 import NeuErstellen from "./Components/neuErstellen.jsx";
 
 function App() {
@@ -7,6 +7,7 @@ function App() {
     <>
       <Home />
       <NeuErstellen />
+      <Lesen />
     </>
   );
 }
