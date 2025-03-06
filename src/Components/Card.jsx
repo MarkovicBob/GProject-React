@@ -31,8 +31,8 @@ function Card() {
         >
           lesen
         </button> */}
-        {savedDiary.map((diaryYannis) => (
-          <diaryCard key={diaryYannis.id} diary={diaryYannis} />
+        {diary.map((diaryEntry) => (
+          <diaryCard key={diaryEntry.id} diary={diaryEntry} />
         ))}
       </div>
     </>
@@ -40,3 +40,5 @@ function Card() {
 }
 
 export default Card;
+
+// Obsolet, da nur Container, der auch direkt in Home angelegt werden kann. Nur für diesen Container eine eigene Komponente zu erstellen, macht es komplizierter, als es sein muss.
