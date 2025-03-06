@@ -6,8 +6,8 @@ function App() {
   return (
     <>
       <Home />
-      <NeuErstellen />
-      <Lesen />
+      {/* <NeuErstellen />
+      <Lesen /> */}
     </>
   );
 }
